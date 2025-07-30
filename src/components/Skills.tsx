@@ -6,25 +6,29 @@ const Skills: React.FC = () => {
   const filters = ['All', 'Frontend', 'Backend', 'DevOps', 'AI / ML'];
 
   const allSkills = [
-    { name: 'Next.js', logo: '/logos/nextjs-logo.png', category: 'Frontend' },
-    { name: 'Node.js', logo: '/logos/nodejs-logo.png', category: 'Backend' },
-    { name: 'MongoDB', logo: '/logos/mongodb-logo.png', category: 'Backend' },
-    { name: 'Vercel', logo: '/logos/vercel-logo.png', category: 'DevOps' },
-    { name: 'Express.js', logo: '/logos/express-logo.png', category: 'Backend' },
-    { name: 'C#', logo: '/logos/csharp-logo.png', category: 'Backend' },
-    { name: 'Flask', logo: '/logos/flask-logo.png', category: 'Backend' },
-    { name: 'Supabase', logo: '/logos/supabase-logo.png', category: 'Backend' },
-    { name: 'Python', logo: '/logos/python-logo.png', category: 'Backend' },
-    { name: 'JavaScript', logo: '/logos/javascript-logo.png', category: 'Frontend' },
-    { name: 'React', logo: '/logos/react-logo.png', category: 'Frontend' },
-    { name: 'Svelte', logo: '/logos/svelte-logo.png', category: 'Frontend' },
-    { name: 'TypeScript', logo: '/logos/typescript-logo.png', category: 'Frontend' },
-    { name: 'OpenAI', logo: '/logos/openai-logo.png', category: 'AI / ML' },
-    { name: 'LangChain', logo: '/logos/langchain-logo.png', category: 'AI / ML' },
-    { name: 'Dapr', logo: '/logos/dapr-logo.png', category: 'Backend' },
-    { name: 'Azure', logo: '/logos/azure-logo.png', category: 'DevOps' },
-    { name: 'Docker', logo: '/logos/docker-logo.png', category: 'DevOps' },
-    { name: 'Google Cloud', logo: '/logos/gcp-logo.png', category: 'DevOps' }
+    { name: 'Next.js', logo: '/technologyStack/next-js.webp', category: 'Frontend' },
+    { name: 'Node.js', logo: '/technologyStack/node.webp', category: 'Backend' },
+    { name: 'MongoDB', logo: '/technologyStack/mongo.webp', category: 'Backend' },
+    { name: 'Vercel', logo: '/technologyStack/vercel.webp', category: 'DevOps' },
+    { name: 'Express.js', logo: '/technologyStack/express-js.webp', category: 'Backend' },
+    { name: 'Flask', logo: '/technologyStack/flask.webp', category: 'Backend' },
+    { name: 'Supabase', logo: '/technologyStack/supabase.png', category: 'Backend' },
+    { name: 'Python', logo: '/technologyStack/python.webp', category: 'Backend' },
+    { name: 'JavaScript', logo: '/technologyStack/javascript.webp', category: 'Frontend' },
+    { name: 'React', logo: '/technologyStack/react-js.webp', category: 'Frontend' },
+    { name: 'TypeScript', logo: '/technologyStack/typescript.webp', category: 'Frontend' },
+    { name: 'OpenAI', logo: '/technologyStack/openaisdk.jpeg', category: 'AI / ML' },
+    { name: 'LangChain', logo: '/technologyStack/langchain.png', category: 'AI / ML' },
+    { name: 'Dapr', logo: '/technologyStack/dapr.png', category: 'Backend' },
+    { name: 'Azure', logo: '/technologyStack/azure.png', category: 'DevOps' },
+    { name: 'Docker', logo: '/technologyStack/docker.webp', category: 'DevOps' },
+    { name: 'Tailwind CSS', logo: '/technologyStack/tailwindcss.webp', category: 'Frontend' },
+    { name: 'Prisma', logo: '/technologyStack/prisma.webp', category: 'Backend' },
+    { name: 'Stripe', logo: '/technologyStack/stripe.png', category: 'Backend' },
+    { name: 'Clerk', logo: '/technologyStack/clerk.png', category: 'Backend' },
+    { name: 'ChromaDB', logo: '/technologyStack/ChromaDB.png', category: 'AI / ML' },
+    { name: 'Groq', logo: '/technologyStack/groq.png', category: 'AI / ML' },
+    { name: 'LangGraph', logo: '/technologyStack/langgraph.png', category: 'AI / ML' }
   ];
 
   const filteredSkills = activeFilter === 'All' 
@@ -32,10 +36,10 @@ const Skills: React.FC = () => {
     : allSkills.filter(skill => skill.category === activeFilter);
 
   return (
-    <section id="skills" className="py-20">
+    <section id="skills" className="py-20" aria-labelledby="skills-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
+          <h2 id="skills-heading" className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
             Skills & Expertise
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-8 rounded-full"></div>

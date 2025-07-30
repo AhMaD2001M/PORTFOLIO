@@ -8,33 +8,57 @@ const Projects: React.FC = () => {
     {
       title: 'E-Commerce Platform',
       description: 'Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include product management, shopping cart, user authentication, and payment processing.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/proj/Screenshot 2025-07-30 163838.png',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
-      liveUrl: 'https://example.com',
+      liveUrl: 'https://fit-forg-ecommerces-application.vercel.app/',
       githubUrl: 'https://github.com'
     },
     {
-      title: 'Task Management App',
+      title: 'Consulting App ',
       description: 'Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Next.js', 'TypeScript', 'Supabase', 'Socket.io', 'Framer Motion'],
-      liveUrl: 'https://example.com',
+      image: '/proj/Screenshot 2025-07-30 164219.png',
+      technologies: ['Next.js', 'TypeScript', 'Socket.io', 'Framer Motion'],
+      liveUrl: 'https://www.ajconsultants.online/',
       githubUrl: 'https://github.com'
     },
     {
-      title: 'AI Chat Interface',
+      title: 'SmartGrade AI ',
       description: 'Modern chat interface with AI integration, featuring real-time messaging, file uploads, and intelligent response generation.',
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React', 'Python', 'OpenAI API', 'WebSocket', 'PostgreSQL'],
-      liveUrl: 'https://example.com',
+      image: '/proj/Screenshot 2025-07-30 170015.png',
+      technologies: ['React', 'Python', 'OpenAI API', 'Groq', 'gamma 2','LAMA 3.2'],
+      liveUrl: 'https://lablab.ai/event/gemma-2-ai-challenge/0s-and-1s/smart-grade-ai',
       githubUrl: 'https://github.com'
     },
     {
-      title: 'Portfolio Dashboard',
-      description: 'Investment portfolio tracking dashboard with real-time market data, interactive charts, and comprehensive analytics.',
-      image: 'https://images.pexels.com/photos/6801642/pexels-photo-6801642.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Vue.js', 'D3.js', 'Express.js', 'Redis', 'Chart.js'],
-      liveUrl: 'https://example.com',
+      title: 'AI Chat Interface ANS Application',
+      description: 'Modern chat interface with AI integration, featuring real-time messaging, file uploads, and intelligent response generation.',
+      image: '/proj/Screenshot 2025-07-30 164602.png',
+      technologies: ['React', 'Python', 'OpenAI API', 'MongoDB', 'RAAG','LAMA 3.1'],
+      liveUrl: 'https://anssociety.vercel.app/',
+      githubUrl: 'https://github.com'
+    },
+    {
+      title: 'Ayra Foundation',
+      description: '',
+      image: '/proj/Screenshot 2025-07-30 165226.png',
+      technologies: ['React', 'AUTH', 'Express.js', 'Python', 'js'],
+      liveUrl: 'https://ayra-foundation.vercel.app/index.html',
+      githubUrl: 'https://github.com'
+    },
+    {
+      title: 'Agro AI',
+      description: 'Modern chat interface with AI integration, featuring real-time messaging, file uploads, and intelligent response generation.',
+      image: '/proj/Screenshot 2025-07-30 170313.png',
+      technologies: ['React', 'Python', 'OpenAI API', 'MongoDB', 'RAAG','LAMA 3.1'],
+      liveUrl: 'https://agroo-ai.vercel.app/?utm_source=deri.my.id&utm_medium=campaign&utm_campaign=portfolio',
+      githubUrl: 'https://github.com'
+    },
+    {
+      title: 'Vision AI',
+      description: 'Modern chat interface with AI integration, featuring real-time messaging, file uploads, and intelligent response generation.',
+      image: '/proj/Screenshot 2025-07-30 170653.png',
+      technologies: ['React', 'Python', 'OpenAI API', 'MongoDB', 'RAAG','LAMA 3.1'],
+      liveUrl: 'https://lablab.ai/event/ibm-watsonx-challenge/0s-and-1s/myvision',
       githubUrl: 'https://github.com'
     }
   ];

@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Certification from './components/Certification';
 import Contact from './components/Contact';
 import ParticleBackground from './components/ParticleBackground';
+import SEO from './components/SEO';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -36,6 +37,7 @@ function App() {
 
   return (
     <div className="relative bg-gray-900 text-white overflow-x-hidden">
+      <SEO />
       <ParticleBackground />
       <Navbar activeSection={activeSection} />
       <Hero />

@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative">
+    <main id="home" className="min-h-screen flex items-center justify-center relative" role="main" aria-label="Home">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in-up">
           <div className="mb-12 mt-20">
@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
           
           <div className="flex justify-center space-x-6 mb-8 animate-fade-in-up animation-delay-500">
             <a
-              href="https://github.com"
+              href="https://github.com/AhMaD2001M"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-4 bg-gray-800/50 rounded-full hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500 transition-all duration-300 hover:transform hover:scale-110 hover:rotate-3"
@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
               <Github size={24} className="group-hover:text-white transition-colors duration-300" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/ahmad-aslam-6b2141267/"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-4 bg-gray-800/50 rounded-full hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500 transition-all duration-300 hover:transform hover:scale-110 hover:rotate-3"
@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
               <Linkedin size={24} className="group-hover:text-white transition-colors duration-300" />
             </a>
             <a
-              href="mailto:ahmad@example.com"
+              href="mailto:ahmadaslam2001@gmail.com"
               className="group p-4 bg-gray-800/50 rounded-full hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500 transition-all duration-300 hover:transform hover:scale-110 hover:rotate-3"
             >
               <Mail size={24} className="group-hover:text-white transition-colors duration-300" />
@@ -96,7 +96,7 @@ const Hero: React.FC = () => {
           
           <div className="flex justify-center mb-12 animate-fade-in-up animation-delay-600">
             <a
-              href="/resume.pdf"
+              href="/ahmadaslam-Resume.docx"
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full hover:from-purple-600 hover:to-blue-600 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-lg"
@@ -117,7 +117,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
+    </main>
   );
 };
 

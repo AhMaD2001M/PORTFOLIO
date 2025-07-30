@@ -33,19 +33,19 @@ const Contact: React.FC = () => {
     {
       icon: <Mail size={24} />,
       label: 'Email',
-      value: 'ahmad.aslam@example.com',
+      value: 'ahmadaslam2001M@GMAIL.com',
       href: 'mailto:ahmad.aslam@example.com'
     },
     {
       icon: <Phone size={24} />,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+92 311 6580297',
+      href: 'tel:+923116580297'
     },
     {
       icon: <MapPin size={24} />,
       label: 'Location',
-      value: 'New York, NY',
+      value: 'LAHORE PAKISTAN',
       href: '#'
     }
   ];

@@ -5,64 +5,55 @@ const Certification: React.FC = () => {
   const certifications = [
     {
       id: 1,
-      title: 'AWS Certified Solutions Architect',
-      issuer: 'Amazon Web Services',
-      date: '2024',
-      description: 'Comprehensive knowledge of AWS services and architectural best practices for building scalable, secure, and reliable applications.',
-      image: '/assets_task_01k16xhc08eg8a0ygkfsb27ya3_1753652877_img_0.PNG',
-      link: '#',
+      title: 'Microsoft Imagine Cup 2025 Semifinalist',
+      issuer: 'Microsoft',
+      date: '2025',
+      description: 'Lead the product and received a certificate of appreciation for being a semifinalist in the Microsoft Imagine Cup 2025.',
+      image: '/CERTIFICATE/imagin-cup.PNG',
+      link: 'https://imaginecup.microsoft.com/en-US/Member/WinnerCertificate?userid=OqOzZ1QOuB0K%252fQdvOgC8mw%253d%253d&compId=gBcKa8lOtQKof4CiRWjRxw%253d%253d&teamId=7G897Xq1tKuWafS%252b5FllEw%253d%253d',
       badge: 'Professional'
     },
     {
       id: 2,
-      title: 'Microsoft Certified: Azure Developer Associate',
-      issuer: 'Microsoft',
-      date: '2023',
-      description: 'Expertise in developing, testing, and maintaining cloud applications and services on Microsoft Azure.',
-      image: '/assets_task_01k16xsjvce008ckeqgcvt80eb_1753653163_img_0.PNG',
-      link: '#',
+      title: 'Generative AI Hackathon with IBM',
+      issuer: 'IBM',
+      date: '2024',
+      description: 'Received certificate for delivering the 3rd best solution in Generative AI Hackathon with IBM by Lablab.ai',
+      image: '/CERTIFICATE/Screenshot 2025-07-09 155350.png',
+      link: 'https://lablab.ai/u/@Ahmad_Aslam/cm1g6t6bz0027u2da801cob0f?_gl=1*1vyn4mg*_up*MQ..*_ga*ODE5MTM4NTEwLjE3NTM4Nzk4MTg.*_ga_0DKXC1L0Y7*czE3NTM4Nzk4MTckbzEkZzAkdDE3NTM4Nzk4MTckajYwJGwwJGg2MDIwMjEzMjk.',
       badge: 'Associate'
     },
     {
       id: 3,
-      title: 'Google Cloud Professional Developer',
+      title: 'Google Gemma 2 AI Challenge',
       issuer: 'Google Cloud',
-      date: '2023',
+      date: '2024',
       description: 'Advanced skills in developing, deploying, and managing applications on Google Cloud Platform.',
-      image: '/assets_task_01k16xhc08eg8a0ygkfsb27ya3_1753652877_img_0.PNG',
-      link: '#',
+      image: '/CERTIFICATE/Screenshot 2025-07-09 155421.png',
+      link: 'https://lablab.ai/u/@Ahmad_Aslam/cm7jn6s1e002v7p33nmybba2a?_gl=1*i9ge3z*_up*MQ..*_ga*ODE5MTM4NTEwLjE3NTM4Nzk4MTg.*_ga_0DKXC1L0Y7*czE3NTM4Nzk4MTckbzEkZzAkdDE3NTM4Nzk4MTckajYwJGwwJGg2MDIwMjEzMjk.',
       badge: 'Professional'
     },
     {
       id: 4,
-      title: 'Certified Scrum Master (CSM)',
-      issuer: 'Scrum Alliance',
+      title: 'Trae AI IDE: Zero Limits Hackathon',
+      issuer: 'LABLAB AI',
       date: '2023',
-      description: 'Proven expertise in Scrum methodology and agile project management practices.',
+      description: 'Build Beyond the Limits. Download TRAE AI IDE and Get The Limitless AI Development Experience',
       image: '/assets_task_01k16xsjvce008ckeqgcvt80eb_1753653163_img_0.PNG',
-      link: '#',
+      link: 'https://lablab.ai/u/@Ahmad_Aslam/cmd60b6cl003ma90stct5aram?_gl=1*jcv7xj*_up*MQ..*_ga*ODE5MTM4NTEwLjE3NTM4Nzk4MTg.*_ga_0DKXC1L0Y7*czE3NTM4Nzk4MTckbzEkZzAkdDE3NTM4Nzk4MTckajYwJGwwJGg2MDIwMjEzMjk.',
       badge: 'Professional'
     },
     {
       id: 5,
-      title: 'React Developer Certification',
-      issuer: 'Meta',
+      title: 'Edge Runners 3.2',
+      issuer: 'Edge Runners 3.2',
       date: '2023',
       description: 'Advanced React development skills including hooks, context, and modern React patterns.',
-      image: '/assets_task_01k16xhc08eg8a0ygkfsb27ya3_1753652877_img_0.PNG',
-      link: '#',
+      image: '/CERTIFICATE/Screenshot 2025-07-09 155248.png',
+      link: 'https://lablab.ai/u/@Ahmad_Aslam/cm2rx873j00hsk3xgeo6uelwr?_gl=1*jcv7xj*_up*MQ..*_ga*ODE5MTM4NTEwLjE3NTM4Nzk4MTg.*_ga_0DKXC1L0Y7*czE3NTM4Nzk4MTckbzEkZzAkdDE3NTM4Nzk4MTckajYwJGwwJGg2MDIwMjEzMjk.',
       badge: 'Specialist'
     },
-    {
-      id: 6,
-      title: 'Node.js Developer Certification',
-      issuer: 'OpenJS Foundation',
-      date: '2022',
-      description: 'Comprehensive knowledge of Node.js development, APIs, and server-side JavaScript.',
-      image: '/assets_task_01k16xsjvce008ckeqgcvt80eb_1753653163_img_0.PNG',
-      link: '#',
-      badge: 'Associate'
-    }
+    
   ];
 
   return (
