@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
     setTimeout(() => {
       setIsSubmitting(false);
       setFormData({ name: '', email: '', subject: '', message: '' });
-      alert('Message sent successfully!');
+      alert('Message not sent due to an error ');
     }, 2000);
   };
 
