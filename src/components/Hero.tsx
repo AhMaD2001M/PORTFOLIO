@@ -6,7 +6,9 @@ const Hero: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const texts = ['Full Stack Developer', 'UI/UX Designer', 'Problem Solver', 'Creative Thinker'];
+  const texts = ['Full Stack Developer', 'Certified Cloud Applied Generative AI Engineer',
+    '3x Startups Founder',
+    '3x Global Competition Winner (IBM, Google, Microsoft)','UI/UX Designer', 'Problem Solver', 'Creative Thinker'];
 
   useEffect(() => {
     const timeout = setTimeout(() => {

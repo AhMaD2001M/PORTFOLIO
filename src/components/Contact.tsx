@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
       icon: <Mail size={24} />,
       label: 'Email',
       value: 'ahmadaslam2001M@GMAIL.com',
-      href: 'mailto:ahmad.aslam@example.com'
+      href: 'ahmadaslam2001M@GMAIL.com'
     },
     {
       icon: <Phone size={24} />,
@@ -122,7 +122,7 @@ const Contact: React.FC = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-colors duration-200"
-                    placeholder="John Doe"
+                    placeholder="AHMAD ASLAM"
                   />
                 </div>
                 <div>
@@ -137,7 +137,7 @@ const Contact: React.FC = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-colors duration-200"
-                    placeholder="john@example.com"
+                    placeholder="Ahmad @example.com"
                   />
                 </div>
               </div>
@@ -187,7 +187,7 @@ const Contact: React.FC = () => {
                 ) : (
                   <>
                     <Send size={18} className="group-hover:transform group-hover:translate-x-1 transition-transform duration-200" />
-                    <span>Send Message</span>
+                    <span> not sending due to an error </span>
                   </>
                 )}
               </button>
