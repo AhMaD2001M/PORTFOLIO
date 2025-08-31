@@ -187,7 +187,7 @@ const Contact: React.FC = () => {
                 ) : (
                   <>
                     <Send size={18} className="group-hover:transform group-hover:translate-x-1 transition-transform duration-200" />
-                    <span> not sending due to an error </span>
+                    <span> send </span>
                   </>
                 )}
               </button>
