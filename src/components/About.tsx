@@ -88,6 +88,15 @@ const About: React.FC = () => {
             </div>
           ))}
         </div>
+        <div className="mt-16 text-center">
+          <div className="inline-flex items-center space-x-4 bg-gray-800/30 rounded-full px-8 py-4 backdrop-blur-sm border border-gray-700/50">
+            <span className="text-gray-400 font-medium">
+                     BS Software Engineering <br></br>
+             Certified Cloud Applied Generative AI Engineer 
+
+            </span>
+          </div>
+        </div>
       </div>
     </section>
   );
